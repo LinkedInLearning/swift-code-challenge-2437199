@@ -23,7 +23,7 @@ func isPalindrome(_ text: String) -> Bool {
     var leftIndex = 0
     var rightIndex = chars.count - 1
     
-    while leftIndex > rightIndex {
+    while leftIndex < rightIndex {
         if chars[leftIndex] != chars[rightIndex] {
             return false
         }
