@@ -12,6 +12,8 @@ func isPalindrome(_ text: String) -> Bool {
 }*/
 
 func isPalindrome(_ text: String) -> Bool {
+    let x = "Amore, Roma".reversed()
+    "amor ,eromA"
     let text = text.filter{$0.isLetter}
     
     guard text.count > 1 else {

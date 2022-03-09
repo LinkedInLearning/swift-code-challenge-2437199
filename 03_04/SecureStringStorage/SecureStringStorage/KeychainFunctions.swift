@@ -24,8 +24,6 @@ func secureStore(string: String, forKey key: String) -> Bool {
             print("\n\tSecItemAdd() failed. Reason: \(SecCopyErrorMessageString(status, nil) as String? ?? "unknown")\n")
             return false
         }
-        
-        return true
     } else if foundItem != string { // if same values, no need to update
         let updateQuery: [String: Any] = [kSecClass as String: kSecClassGenericPassword,
                                           kSecAttrAccount as String: key.data(using: .utf8)!]
