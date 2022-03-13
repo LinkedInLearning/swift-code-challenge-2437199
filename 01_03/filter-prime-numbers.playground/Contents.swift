@@ -1,5 +1,14 @@
-// Naive approach
-// Traverse the array and check every element if it's a prime number
+//: **Swift Code Challenges**
+//:
+//: Source Code
+//: _ _ _
+//: ## Challenge #3: Find the Prime Numbers
+//: Implement an algorithm that takes an array of positive integers and returns all the prime numbers in that array. If the input array does not contain any prime numbers, return an empty array.
+//:
+//: - Callout(Interested in Swift programming?):
+//: Check out my [Youtube channel](https://www.youtube.com/c/swiftprogrammingtutorials) and my [courses on LinkedIn Learning](https://www.linkedin.com/learning/instructors/karoly-nyisztor)
+//: ---
+// Traverse the array and check if each number is divisible by any of the previous numbers, except for one and itself
 func findPrimes(numbers: [UInt]) -> [UInt] {
     var primes = [UInt]()
     

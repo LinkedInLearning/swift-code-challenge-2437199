@@ -1,8 +1,15 @@
+// Swift Code Challenges
+//
+// Source Code
+//
+// Challenge #12: Storing Strings Securely
+// The aim of this challenge is to create a function that takes a string and a secret key as input and stores it in the keychain. The function returns a boolean value indicating whether the operation was successful.
+//
+// Interested in Swift programming?:
+// Check out my [Youtube channel](https://www.youtube.com/c/swiftprogrammingtutorials) and my [courses on LinkedIn Learning](https://www.linkedin.com/learning/instructors/karoly-nyisztor)
 //
 //  SecurityWrapper.swift
 //  SecureStringStorage
-//
-//  Created by Karoly Nyisztor on 3/7/22.
 //
 
 import Foundation

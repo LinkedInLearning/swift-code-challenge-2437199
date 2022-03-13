@@ -1,3 +1,13 @@
+//: **Swift Code Challenges**
+//:
+//: Source Code
+//: _ _ _
+//: ## Challenge #7: Convert Dictionary to JSON
+//: Mapping dictionaries to JSON is a common task in programming. The goal is to implement a solution that's both concise and elegant.
+//:
+//: - Callout(Interested in Swift programming?):
+//: Check out my [Youtube channel](https://www.youtube.com/c/swiftprogrammingtutorials) and my [courses on LinkedIn Learning](https://www.linkedin.com/learning/instructors/karoly-nyisztor)
+//: ---
 import Foundation
 
 // 1. Using JSONEncoder

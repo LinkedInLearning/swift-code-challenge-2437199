@@ -1,3 +1,13 @@
+//: **Swift Code Challenges**
+//:
+//: Source Code
+//: _ _ _
+//: ## Challenge #9: Find the Missing Number
+//: Implement an algorithm to find the smallest positive integer that does not occur in a given sequence. Note that the numbers are neither ordered nor unique.
+//:
+//: - Callout(Interested in Swift programming?):
+//: Check out my [Youtube channel](https://www.youtube.com/c/swiftprogrammingtutorials) and my [courses on LinkedIn Learning](https://www.linkedin.com/learning/instructors/karoly-nyisztor)
+//: ---
 func smallestMissingNumber_v1(_ numbers: [Int]) -> Int {
     var smallestMissing = 1
     guard !numbers.isEmpty else {

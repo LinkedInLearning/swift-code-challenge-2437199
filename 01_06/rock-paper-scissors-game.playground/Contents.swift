@@ -1,3 +1,13 @@
+//: **Swift Code Challenges**
+//:
+//: Source Code
+//: _ _ _
+//: ## Challenge #6: Rock, Paper, Scissors
+//: Your task is to write a Swift program that plays Rock, Paper, Scissors against a human player.
+//:
+//: - Callout(Interested in Swift programming?):
+//: Check out my [Youtube channel](https://www.youtube.com/c/swiftprogrammingtutorials) and my [courses on LinkedIn Learning](https://www.linkedin.com/learning/instructors/karoly-nyisztor)
+//: ---
 enum Choice: String, CaseIterable {
     case rock
     case paper

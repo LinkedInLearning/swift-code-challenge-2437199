@@ -2,8 +2,6 @@
 //  ViewController.swift
 //  SecureStringStorage
 //
-//  Created by Karoly Nyisztor on 3/7/22.
-//
 
 import UIKit
 

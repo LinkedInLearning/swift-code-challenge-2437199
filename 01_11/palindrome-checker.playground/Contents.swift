@@ -1,3 +1,13 @@
+//: **Swift Code Challenges**
+//:
+//: Source Code
+//: _ _ _
+//: ## Challenge #11: Check Palindromes
+//: The goal is to write a function that takes a string as input and determines whether or not the string is a palindrome.
+//:
+//: - Callout(Interested in Swift programming?):
+//: Check out my [Youtube channel](https://www.youtube.com/c/swiftprogrammingtutorials) and my [courses on LinkedIn Learning](https://www.linkedin.com/learning/instructors/karoly-nyisztor)
+//: ---
 import Foundation
 /*
 func isPalindrome(_ text: String) -> Bool {
@@ -12,8 +22,6 @@ func isPalindrome(_ text: String) -> Bool {
 }*/
 
 func isPalindrome(_ text: String) -> Bool {
-    let x = "Amore, Roma".reversed()
-    "amor ,eromA"
     let text = text.filter{$0.isLetter}
     
     guard text.count > 1 else {
